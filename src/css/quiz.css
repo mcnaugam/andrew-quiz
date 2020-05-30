@@ -1,0 +1,45 @@
+.inner-div {
+  width: inherit;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+}
+/* .blink {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+} */
+
+/* h5,
+h6 {
+  color: #001ee0;
+} */
+
+#root {
+  background-image: linear-gradient(to left, white, #e6e9fc);
+}
+
+/* b {
+  color: #001ee0;
+} */
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.blink {
+  -webkit-animation: blinker 1s 5;
+  -moz-animation: blinker 1s 5;
+  animation: blinker 1s 5;
+}
