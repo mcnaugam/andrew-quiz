@@ -627,3 +627,627 @@ export const SET1 = [
     ],
   },
 ];
+
+export const SET2 = [
+  {
+    theme: "Sport",
+    question:
+      "Top 20 goalscorers in the last 10 years of the SPL (2009/10 - 2019/20)",
+    answers: [
+      {
+        answer: "Leigh Griffiths",
+        value: "114",
+      },
+      {
+        answer: "Anthony Stokes",
+        value: "88",
+      },
+      {
+        answer: "Adam Rooney",
+        value: "80",
+      },
+      {
+        answer: "Kris Boyd",
+        value: "79",
+      },
+      {
+        answer: "Billy McKay",
+        value: "78",
+      },
+      {
+        answer: "Niall McGinn",
+        value: "75",
+      },
+      {
+        answer: "John Sutton",
+        value: "68",
+      },
+      {
+        answer: "Gary Hooper",
+        value: "63",
+      },
+      {
+        answer: "Kris Commons",
+        value: "62",
+      },
+      {
+        answer: "Kenny Miller",
+        value: "60",
+      },
+
+      {
+        answer: "Michael Higdon",
+        value: "58",
+      },
+      {
+        answer: "James Forrest",
+        value: "57",
+      },
+      {
+        answer: "Kris Doolan",
+        value: "52",
+      },
+      {
+        answer: "Steven MacLean",
+        value: "52",
+      },
+      {
+        answer: "Jon Daly",
+        value: "51",
+      },
+      {
+        answer: "Liam Boyce",
+        value: "50",
+      },
+      {
+        answer: "Liam Craig",
+        value: "50",
+      },
+      {
+        answer: "Alfredo Morelos",
+        value: "43",
+      },
+      {
+        answer: "Ryan Christie",
+        value: "42",
+      },
+      {
+        answer: "Odsonne Edouard",
+        value: "41",
+      },
+    ],
+  },
+  {
+    theme: "Film",
+    question:
+      "Top 20 highest grossing films of all time, adjusted for inflation",
+    answers: [
+      {
+        answer: "Gone with the Wind",
+        value: "$3.4 billion - $3.8 billion",
+      },
+      {
+        answer: "Titanic",
+        value: "$3.2 billion - $3.4 billion",
+      },
+      {
+        answer: "Avatar",
+        value: "$3.2 billion",
+      },
+      {
+        answer: "Star Wars",
+        value: "$2.9 billion - $3 billion",
+      },
+      {
+        answer: "Avengers: Endgame",
+        value: "$2.742 billion",
+      },
+      {
+        answer: "The Sound of Music",
+        value: "$2.4 billion - $2.5 billion",
+      },
+      {
+        answer: "E.T.: The Extra-Terrestrial",
+        value: "$2.3 billion - $2.4 billion",
+      },
+      {
+        answer: "The Ten Commandments",
+        value: "$2.2 billion - $2.3 billion",
+      },
+      {
+        answer: "Doctor Zhivago",
+        value: "$2.15 billion - $2.25 billion",
+      },
+      {
+        answer: "Star Wars: Episode VII - The Force Awakens",
+        value: "$2.15 billion",
+      },
+      {
+        answer: "Jaws",
+        value: "$2.05 billion - $2.1 billion",
+      },
+      {
+        answer: "Snow White and the Seven Dwarfs",
+        value: "$2 billion -$2.1 billion",
+      },
+      {
+        answer: "Jurassic Park",
+        value: "$2 billion - $2.1 billion",
+      },
+      {
+        answer: "Avengers: Infinity War",
+        value: "$2.048 billion",
+      },
+      {
+        answer: "The Exorcist",
+        value: "$1.85 billion - $1.9 billion",
+      },
+      {
+        answer: "The Lion King",
+        value: "$1.8 billion - $1.85 billion",
+      },
+      {
+        answer: "Jurassic World",
+        value: "$1.8 billion",
+      },
+      {
+        answer: "Star Wars: Episode I - The Phantom Menace",
+        value: "$1.75 billion - $1.8 billion",
+      },
+      {
+        answer: "Ben-Hur",
+        value: "$1.7 billion -$1.8 billion",
+      },
+      {
+        answer: "The Avengers",
+        value: "$1.7 billion",
+      },
+    ],
+  },
+
+  {
+    theme: "Sport",
+    question:
+      "Top 20 tennis players of all time as chosen by panel of experts in 2012",
+    answers: [
+      {
+        answer: "Roger Federer",
+        value: "",
+      },
+      {
+        answer: "Rod Laver",
+        value: "",
+      },
+      {
+        answer: "Steffi Graf",
+        value: "",
+      },
+      {
+        answer: "Martina Navratilova",
+        value: "",
+      },
+      {
+        answer: "Pete Sampras",
+        value: "",
+      },
+      {
+        answer: "Rafael Nadal",
+        value: "",
+      },
+      {
+        answer: "Björn Borg",
+        value: "",
+      },
+      {
+        answer: "Margaret Court",
+        value: "",
+      },
+      {
+        answer: "Chris Evert",
+        value: "",
+      },
+      {
+        answer: "Billie Jean King",
+        value: "",
+      },
+
+      {
+        answer: "Don Budge",
+        value: "",
+      },
+      {
+        answer: "Andre Agassi",
+        value: "",
+      },
+      {
+        answer: "John McEnroe",
+        value: "",
+      },
+      {
+        answer: "Serena Williams",
+        value: "",
+      },
+      {
+        answer: "Jimmy Connors",
+        value: "",
+      },
+      {
+        answer: "Bill Tilden",
+        value: "",
+      },
+      {
+        answer: "Roy Emerson",
+        value: "",
+      },
+      {
+        answer: "Ivan Lendl",
+        value: "",
+      },
+      {
+        answer: "Monica Seles",
+        value: "",
+      },
+      {
+        answer: "Ken Rosewall",
+        value: "",
+      },
+    ],
+  },
+
+  {
+    theme: "Geography",
+    question: "Top 15 US States by population",
+    answers: [
+      {
+        answer: "California",
+        value: "39,512,223",
+      },
+      {
+        answer: "Texas",
+        value: "28,995,881",
+      },
+      {
+        answer: "Florida",
+        value: "21,477,737",
+      },
+      {
+        answer: "New York",
+        value: "19,453,561",
+      },
+      {
+        answer: "Pennsylvania",
+        value: "12,801,989",
+      },
+      {
+        answer: "Illinois",
+        value: "12,671,821",
+      },
+      {
+        answer: "Ohio",
+        value: "11,689,100",
+      },
+      {
+        answer: "Georgia",
+        value: "10,617,423",
+      },
+      {
+        answer: "North Carolina",
+        value: "10,488,084",
+      },
+      {
+        answer: "Michigan",
+        value: "9,986,857",
+      },
+      {
+        answer: "New Jersey",
+        value: "8,882,190",
+      },
+      {
+        answer: "Virginia",
+        value: "8,535,519",
+      },
+      {
+        answer: "Washington",
+        value: "7,614,893",
+      },
+      {
+        answer: "Arizona",
+        value: "7,278,717",
+      },
+      {
+        answer: "Massachusetts",
+        value: "6,949,503",
+      },
+    ],
+  },
+
+  {
+    theme: "Tourism",
+    question:
+      "Top 10 most popular tourist attractions 2018 (bookings on TripAdvisor)",
+    answers: [
+      {
+        answer: "Colosseum, Rome, Italy",
+        value: "",
+      },
+      {
+        answer: "Vatican Museums, Rome, Italy",
+        value: "",
+      },
+      {
+        answer: "Statue of Liberty, New York City, United States",
+        value: "",
+      },
+      {
+        answer: "Louvre Museum, Paris, France",
+        value: "",
+      },
+      {
+        answer: "Eiffel Tower, Paris, France",
+        value: "",
+      },
+      {
+        answer: "Basilica of the Sagrada Familia, Barcelona, Spain",
+        value: "",
+      },
+      {
+        answer: "Golden Gate Bridge, San Francisco, United States",
+        value: "",
+      },
+      {
+        answer: "Stonehenge, Amesbury, United Kingdom",
+        value: "",
+      },
+      {
+        answer: "Palace of Versailles, Versailles, France",
+        value: "",
+      },
+      {
+        answer: "Canal Grande, Venice, Italy",
+        value: "",
+      },
+    ],
+  },
+
+  {
+    theme: "Nature",
+    question:
+      "Top 10 most common garden bird in Scotland (RSPB birdwatch 2020)",
+    answers: [
+      {
+        answer: "House sparrow",
+        value: "",
+      },
+      {
+        answer: "Starling",
+        value: "",
+      },
+      {
+        answer: "Chaffinch",
+        value: "",
+      },
+      {
+        answer: "Blue tit",
+        value: "",
+      },
+      {
+        answer: "Blackbird",
+        value: "",
+      },
+      {
+        answer: "Goldfinch",
+        value: "",
+      },
+      {
+        answer: "Woodpigeon",
+        value: "",
+      },
+      {
+        answer: "Robin",
+        value: "",
+      },
+      {
+        answer: "Great tit",
+        value: "",
+      },
+      {
+        answer: "Long-tailed tit",
+        value: "",
+      },
+    ],
+  },
+
+  {
+    theme: "Geography",
+    question: "Top 20 cities/towns in France by population",
+    answers: [
+      {
+        answer: "Paris",
+        value: "2,187,526",
+      },
+      {
+        answer: "Marseille",
+        value: "863,310",
+      },
+      {
+        answer: "Lyon",
+        value: "516,092",
+      },
+      {
+        answer: "Toulouse",
+        value: "479,553",
+      },
+      {
+        answer: "Nice",
+        value: "340,017",
+      },
+      {
+        answer: "Nantes",
+        value: "309,346",
+      },
+      {
+        answer: "Montpellier",
+        value: "285,121",
+      },
+      {
+        answer: "Strasbourg",
+        value: "280,966",
+      },
+      {
+        answer: "Bordeaux",
+        value: "254,436",
+      },
+      {
+        answer: "Lille",
+        value: "232,787",
+      },
+
+      {
+        answer: "Rennes",
+        value: "216,815",
+      },
+      {
+        answer: "Reims",
+        value: "182,460",
+      },
+      {
+        answer: "Saint-Étienne",
+        value: "172,565",
+      },
+      {
+        answer: "Toulon",
+        value: "171,953",
+      },
+      {
+        answer: "Le Havre",
+        value: "170,147",
+      },
+      {
+        answer: "Grenoble",
+        value: "158,454",
+      },
+      {
+        answer: "Dijon",
+        value: "156,920",
+      },
+      {
+        answer: "Angers",
+        value: "152,960",
+      },
+      {
+        answer: "Nîmes",
+        value: "150,610",
+      },
+      {
+        answer: "Saint-Denis",
+        value: "147,931",
+      },
+    ],
+  },
+
+  {
+    theme: "Food & Drink",
+    question: "Top 10 best selling lager brands in the UK in 2019",
+    answers: [
+      {
+        answer: "Carling",
+        value: "2,940,465 HL",
+      },
+      {
+        answer: "Fosters",
+        value: "1,804,294 HL",
+      },
+      {
+        answer: "Carlsberg",
+        value: "969,730 HL",
+      },
+      {
+        answer: "Peroni",
+        value: "776,363 HL",
+      },
+      {
+        answer: "Coors Light",
+        value: "722,929 HL",
+      },
+      {
+        answer: "Stella Artois",
+        value: "716,937 HL",
+      },
+      {
+        answer: "Tennents",
+        value: "543,652 HL",
+      },
+      {
+        answer: "Amstel",
+        value: "518,585 HL",
+      },
+      {
+        answer: "San Miguel",
+        value: "507,661 HL",
+      },
+      {
+        answer: "Heineken",
+        value: "365,745 HL",
+      },
+    ],
+  },
+
+  {
+    theme: "Geography",
+    question: "Top 13 largest lochs in Scotland by volume (km³)",
+    answers: [
+      {
+        answer: "Loch Ness",
+        value: "7.45",
+      },
+      {
+        answer: "Loch Lomond",
+        value: "2.6",
+      },
+      {
+        answer: "Loch Morar",
+        value: "2.3",
+      },
+      {
+        answer: "Loch Tay",
+        value: "1.6",
+      },
+      {
+        answer: "Loch Awe",
+        value: "1.2",
+      },
+      {
+        answer: "Loch Maree",
+        value: "1.09",
+      },
+      {
+        answer: "Loch Ericht",
+        value: "1.08",
+      },
+      {
+        answer: "Loch Lochy",
+        value: "1.07",
+      },
+      {
+        answer: "Loch Rannoch",
+        value: "0.97",
+      },
+      {
+        answer: "Loch Shiel",
+        value: "0.79",
+      },
+      {
+        answer: "Loch Katrine",
+        value: "0.77",
+      },
+      {
+        answer: "Loch Arkaig",
+        value: "0.75",
+      },
+      {
+        answer: "Loch Shin",
+        value: "0.35",
+      },
+    ],
+  },
+];
