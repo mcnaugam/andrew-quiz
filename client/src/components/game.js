@@ -211,7 +211,26 @@ class Game extends Component {
   }
 
   getColour(i) {
-    return ["red", "cyan", "green", "yellow", "orange"][i];
+    return [
+      "red",
+      "cyan",
+      "green",
+      "yellow",
+      "orange",
+      "blue",
+      "brown",
+      "pink",
+      "purple",
+      "red",
+      "cyan",
+      "green",
+      "yellow",
+      "orange",
+      "blue",
+      "brown",
+      "pink",
+      "purple",
+    ][i];
   }
 
   initialiseGame() {
