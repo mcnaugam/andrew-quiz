@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../css/quiz.css";
-import { SET1 } from "../data/questions";
-import correct from "../data/14876504_correct_by_robotsound_preview.mp3";
-import wrong from "../data/23205030_game-show-buzzer-wrong-answer_by_floraphonic_preview.mp3";
+import { SET3 } from "../data/questions";
+import correct from "../data/169664822.mp3";
+import wrong from "../data/89165024.mp3";
 import FlipMove from "react-flip-move";
 import classnames from "classnames";
 import { confirmAlert } from "react-confirm-alert"; // Import
@@ -16,7 +16,7 @@ class Game extends Component {
       playerScores: [],
       originalOrderPlayerScores: [],
       misses: [],
-      questions: SET1,
+      questions: SET3,
       currentRound: 0,
       allOut: false,
       revealAllAnswers: false,
@@ -66,8 +66,11 @@ class Game extends Component {
       let scoreChangeValue = "";
 
       if (result.outcome === "wrong") {
-        player.score = player.score + 10;
-        scoreChangeValue = "+10";
+        let scoreChange = Math.floor(
+          this.state.questions[this.state.currentRound].answers.length / 2
+        );
+        player.score = player.score + scoreChange;
+        scoreChangeValue = "+" + scoreChange;
         player.wrongAnswers[this.state.currentRound] =
           player.wrongAnswers[this.state.currentRound] - 1;
       } else if (result.outcome === "correct") {
@@ -169,8 +172,12 @@ class Game extends Component {
         this.setState({
           misses: this.state.misses.concat(result),
         });
-        this.state.currentPlayer.score -= 10;
-        scoreChangeValue = "-" + 10;
+        let scoreChange = Math.floor(
+          this.state.questions[this.state.currentRound].answers.length / 2
+        );
+
+        this.state.currentPlayer.score -= scoreChange;
+        scoreChangeValue = "-" + scoreChange;
         if (
           this.state.currentPlayer.wrongAnswers &&
           this.state.currentPlayer.wrongAnswers[this.state.currentRound]
@@ -213,11 +220,11 @@ class Game extends Component {
   getColour(i) {
     return [
       "red",
-      "cyan",
       "green",
+      "blue",
       "yellow",
       "orange",
-      "blue",
+      "cyan",
       "brown",
       "pink",
       "purple",
@@ -304,6 +311,7 @@ class Game extends Component {
         <div className="row">
           <div className="col s3">
             <Leaderboard
+              currentRound={this.state.currentRound}
               playerScores={this.state.playerScores}
               currentPlayer={this.state.currentPlayer}
               scoreChange={this.state.scoreChange}
@@ -484,9 +492,20 @@ class Leaderboard extends Component {
         ></div>
 
         <div
-          className="col s4"
+          className={classnames({
+            "col s4": true,
+            "text-strike": true,
+          })}
           style={{
             margin: "auto",
+            textDecoration:
+              player.wrongAnswers[this.props.currentRound] === 2
+                ? "line-through"
+                : "none",
+            color:
+              player.wrongAnswers[this.props.currentRound] === 2
+                ? "red"
+                : "black",
           }}
         >
           {player.name}
